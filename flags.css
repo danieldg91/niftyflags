@@ -1,0 +1,98 @@
+
+.display_flags {
+    margin: auto;
+    Padding: 5px;
+    height: 320px;
+    width: 435px;
+    position: relative;
+}
+.background_color {
+    background-size: cover;
+    position: absolute;
+    z-index: auto;
+    width: 135px;
+    height: 90px;
+    opacity: 50%;
+
+}
+.first_row_flags {
+    Margin: 5px;
+    height: 90px;
+    width: 135px;
+    float: left;
+}
+
+.second_row_flags {
+    Margin: 5px;
+    height: 90px;
+    width: 135px;
+    float: left;
+}
+.third_row_flags {
+    Margin: 5px;
+    height: 90px;
+    width: 135px;
+    float: left;
+}
+
+.vertical_stripe {
+    height: 90px;
+    width: 45px;
+    float: left
+}
+
+.horizontal_stripe {
+    height: 30px;
+    width: 135px;
+    float: left
+}
+.thick_horizontal_stripe {
+    display: inline-block;
+    height: 45px;
+    width: 135px;
+    float: left;
+}
+
+.xh_cross_stripe {
+    position: absolute;
+    margin-top: 45px;
+    height: 18px;
+    width: 135px;
+}
+.yv_cross_stripe {
+    position: absolute;
+    margin-left: 67px   ;
+    height: 90px;
+    width: 15px;
+}
+
+.dark_blue {
+    background-color: #002654;
+}
+.white {
+    background-color: #FFFFFF;
+}
+.red
+{
+    background-color: #ED2939;
+}
+.gold {
+    background-color: #FFCC00;
+}
+.black {
+    background-color: #000000;
+}
+.yellow {
+    background-color: #ffff00;
+}
+.light_blue {
+    background-color: #0000ff;
+}
+
+
+
+
+/* https://www.flagcolorcodes.com/france <-- French Flag Colours!!
+Ratio found via google search "french flag ratio",
+the first result displays its proportions.
+ */
