@@ -9,11 +9,8 @@
 .background_color {
     background-size: cover;
     position: absolute;
-    z-index: auto;
     width: 135px;
     height: 90px;
-    opacity: 50%;
-
 }
 .first_row_flags {
     Margin: 5px;
@@ -32,6 +29,7 @@
     Margin: 5px;
     height: 90px;
     width: 135px;
+    overflow: hidden;
     float: left;
 }
 
@@ -44,7 +42,7 @@
 .horizontal_stripe {
     height: 30px;
     width: 135px;
-    float: left
+    float: left;
 }
 .thick_horizontal_stripe {
     display: inline-block;
@@ -52,7 +50,18 @@
     width: 135px;
     float: left;
 }
-
+.xh_base_cross_stripe {
+    position: absolute;
+    margin-top: 33px;
+    height: 24px;
+    width: 135px;
+}
+.yv_base_cross_stripe {
+    position: absolute;
+    margin-left: 57px;
+    height: 90px;
+    width: 22px;
+}
 .xh_cross_stripe {
     position: absolute;
     margin-top: 36px;
@@ -88,6 +97,16 @@
 .light_blue {
     background-color: #0000ff;
 }
+
+.navy_blue {
+    background-color: mediumblue;
+}
+
+
+/*
+
+
+*/
 
 
 
