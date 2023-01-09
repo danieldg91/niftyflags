@@ -26,6 +26,7 @@
     float: left;
 }
 .third_row_flags {
+    Position: relative;
     Margin: 5px;
     height: 90px;
     width: 135px;
@@ -101,15 +102,6 @@
 .navy_blue {
     background-color: mediumblue;
 }
-
-
-/*
-
-
-*/
-
-
-
 
 /* https://www.flagcolorcodes.com/france <-- French Flag Colours!!
 Ratio found via google search "french flag ratio",
